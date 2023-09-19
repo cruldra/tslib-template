@@ -1,0 +1,31 @@
+{
+  "name": "@dongjak-data/types",
+  "version": "2.2.0",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/cruldra/dongjak-data-types-ts",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "semantic-release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^10.0.4",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.6",
+    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^11.0.7",
+    "@types/node": "^20.6.2",
+    "rimraf": "^5.0.1",
+    "semantic-release": "^22.0.0",
+    "typescript": "^5.2.2"
+  }
+}
