@@ -1,5 +1,5 @@
 {
-  "name": "@dongjak-data/types",
+  "name": "你的自定义包名",
   "version": "2.2.0",
   "description": "",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "access": "public"
   },
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/cruldra/dongjak-data-types-ts",
+  "repository": "修改成你的仓库地址",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "semantic-release": "semantic-release",
